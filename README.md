@@ -1,15 +1,15 @@
-WP-CLI Rename Database Prefix
+WP-CLI Rename Table Prefix
 ===============================
 
-A [WP-CLI](http://wp-cli.org/) command to rename WordPress' database prefix.
+A [WP-CLI](http://wp-cli.org/) command to rename WordPress' table prefix. This is based on Ian Dunn's wp-cli-rename-db-prefix and was create to prevent less confusion when trying to modify the default "$table_prefix" value in the sample wp-config.php file of a new wordpress installation.
 
 ## Installing
 
-`wp package install iandunn/wp-cli-rename-db-prefix`
+`wp package install spxis/wp-cli-rename-table-prefix`
 
 ## Usage
 
-`wp rename-db-prefix <new_prefix>`
+`wp rename-table-prefix <new_prefix>`
 
 You will be prompted for confirmation before the command makes any changes.
 
